@@ -1,5 +1,5 @@
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 without_padding-left without_padding-right">
-                        <div id="carousel-container" class="carousel slide">
+                        <div id="carousel-container" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <?php
                                     $active = 0;
