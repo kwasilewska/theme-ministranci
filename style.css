@@ -1,0 +1,173 @@
+/* 
+Theme Name: Ministranci 
+Author: Klaudia Wasilewska & Piotr Kuźnik
+Description: Motyw na stronke ministrancka
+Version: 1.0
+*/
+
+#warpper{
+    min-height: 100vh;
+    width: 100vw;
+    font-family: 'Arbutus Slab', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+}
+#header{
+    background-color: #D50000;
+}
+.title{
+    height: 30vh;
+    display: table;
+}
+.title-center{
+    display: table-cell;
+    vertical-align: middle;
+}
+.h1-title{
+    font-weight: bold;
+    color: #FFF;
+    text-shadow: 4px 4px 10px #122b40;
+}
+.h4-title{
+    font-size: 15px;
+    color: #FFF;
+    text-shadow: 3px 3px 10px #122b40;
+}
+#image_row{
+    height: 65vh;
+    width: 85%;
+    overflow: hidden;
+    background-size: cover;
+    margin: 0 auto;
+    background-image: url('./images/zdj.jpg');
+}
+#image_row img{
+    height: 65vh;
+    width: 70%;
+    background-size: cover;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+input#s {
+    float: right;
+    background: url(./images/search.png) no-repeat 5px 6px white;
+    border-radius: 2px;
+    line-height: 1.5em;
+    padding: 4px 10px 4px 28px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+    color: #888;
+    width: 100px;
+    transition-duration: 2s;
+}
+input#s:focus{
+    width: 200px;
+} 
+#menu_row{
+    background-color: #950000;
+    height: 6vh;
+    width: 83%;
+    margin: 0 auto;
+}
+.menu_ul > li > a{
+    padding: 5px 15px;
+    font-size: 20px;
+    height: 6vh;
+    color: #FFF;
+}
+.menu_ul > li > a:hover , .menu_ul > li > a:active , .menu_ul > li > a:visited{
+    background-color: #122b40;
+    text-decoration: underline;
+}
+.widget_title{
+    color: #337ab7;
+    text-shadow: 3px 3px 5px lightgrey;
+    font-size: 20px;
+}
+#sidebar li{
+    list-style: none;
+    line-height: 40px;
+}
+#sidebar li a{
+    display: block;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+#sidebar li a:hover{
+    background: #f7f7f7;
+}
+.article_title{
+    color: #337ab7;
+    text-shadow: 3px 3px 5px lightgrey;
+    font-size: 30px;
+}
+.article_date{
+    color: grey;
+}
+.seperator{
+    height: 100%;
+    border-left-style: solid;
+    border-left-width: 2px;
+    width: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-color: #337ab7;
+}
+.article_text{
+    margin-top: 20px;
+    text-align: justify;
+    display: block;
+}
+.without_padding-right{
+    padding-right: 0;
+}
+.without_padding-left{
+    padding-left: 0;
+}
+#footer{
+    height: 20vh;
+    border-top: 1px solid #eee;
+    background-color: #f7f7f7;
+}
+.footer_text{
+    display: table;
+    height: 20vh;
+}
+#copyright, #dmac_logo{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.7vh;
+}
+.all{
+    width: 100%;
+}
+
+@media (max-width:767px) {
+    /*HERE PUT YOUR CODE FOR XS */
+    .h1-title{
+        font-size: 100px;
+    }
+}
+
+@media (min-width:768px) {
+    /*HERE PUT YOUR CODE FOR SM */
+    .h1-title{
+        font-size: 50px;
+    }
+}
+
+@media (min-width:992px)  { 
+    /*HERE PUT YOUR CODE FOR  MD */
+    .h1-title{
+        font-size: 50px;
+    }
+}
+
+@media (min-width:1200px) { 
+    /*HERE PUT YOUR CODE FOR  LG */
+    .h1-title{
+        font-size: 50px;
+    }
+}
